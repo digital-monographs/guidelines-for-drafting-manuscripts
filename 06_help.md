@@ -2,7 +2,7 @@
 
 ## In general
 
-The platform uses GitHub Issues for communication with users. Read, update or create issues under [the guidelines repository](https://github.com/monograph-prototypes/guidelines-for-drafting-manuscripts/issues) whenever you want to:
+The platform uses GitHub Issues for communication with users. Read, update or create issues under [the guidelines repository](https://github.com/digital-monographs/guidelines-for-drafting-manuscripts/issues) whenever you want to:
 
 * ask a question,
 * provide feedback,
