@@ -1,3 +1,10 @@
+---
+downloads:
+- file: ./assets/source_chapters/01_general.docx
+---
+
+
+
 # General Remarks
 
 The document provides guidelines for the drafting of manuscripts as well as for their submission for publication using the “Digital Publication” platform for digital publishing (also referenced as “the platform”). Additional instructions that supplement these general guidelines may apply depending on the specific subject area. These instructions have precedence, particularly in the case of conflicting guidelines/uncertainty.
@@ -6,7 +13,9 @@ Please draft your manuscript using a standard word processing application (Micro
 
 To ensure smooth digital processing, it is mandatory that all documents be submitted in a uniform format. Therefore, we require the use of standard styles and file formats in your word processing software.
 
-To help you with compilation of your manuscript, we offer the manuscript template. The template is compatible with Word 2007 or higher and contains basic style formats that fulfill our requirements with respect to structure, typography, and layout. To get the newest manuscript template, please send a request to [tnb.admin@uni.lu](mailto:tnb.admin@uni.lu).
+To help you with compilation of your manuscript, we offer the manuscript template ({download}`./assets/source_chapters/07_appendix_manuscript_template.docx`). The template is compatible with Word 2007 or higher and contains basic style formats that fulfill our requirements with respect to structure, typography, and layout. It is also worth to review the manuscript that generated the guidelines you are reading right now – you can find an underlying source file by pressing the ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAaCAYAAACtv5zzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGCSURBVEhL7ZRBSwJBGIbf3QUv5kl/QcV6qA7VtUMHDx48Rv2DCLoEQVdBJKIIohAjRLwWnUr8AeK1Qi1woaIUXNyr6YIw+3UIY2fSXQ2lDj63eT++eWC+mZGIiDBGZDEYNROBK/9LkEmnkEmnxNiRoQSG0YBhNMTYkaEEv2EicOVvBdX3NyQTZ2CMiSUwxpBMnKJWq4olDkeBRYRc9gbxWJSTMMYQj0WRy97CYhbXIyK5fddPj2Xs7e5gcWkZUz4fAOCj2cTD/R0Oj08wN78gtnC4CmCTdDodAIDH4xlocwAA2TDNNh0d7JNptu0xERGVS0WKhEMUCYeoXCqK5b69nEDX6xRaXSFdr9vjbzStQppWEWMih15uyLL0tSSr96mpahCqGhRjwNbT3aMLt/IHAlAUBYVCvufV7AdjDIVCHoqiwB8IcLUfQ744T+D66hIDzJ5DkiSsrW9gc2ubz0UBALRaLby+PMOynO94F1mWMT0zC6/XK5Z6C0aJ40seBWMXfAJHkixWnOFjwQAAAABJRU5ErkJggg==)
+
+ icon on the right on the top of the current page.
 
 ## First Draft Submission
 
@@ -14,26 +23,26 @@ When sending your manuscript for the first time, please follow this procedure:
 
 1. Send an email to [tnb.admin@uni.lu](mailto:tnb.admin@uni.lu), stating all appropriate data about the book:
 	1. title of the book,
-	2. list of authors,
-	3. short description (optional),
-	4. slug proposal (unique identifier which will appear in the book URL),
-	5. list of files sorted by order in which they should appear in the book.
-2. Add all relevant files of the manuscript as an attachment to that email. This includes `.docx` files and `.ipynb` files, but also the `assets` folder with all the files used in your submission. This includes all the images, videos, datasets and other files. Be sure to follow the guidelines specified in the Submission Structure section.
+	2. list of authors (advisedly with their ORCID number),
+	3. information whether an author contract (agreement between an author and a publisher) has been already signed,
+	4. license under which the book is going to be published (optional),
+	5. short description (optional),
+	6. slug proposal (unique identifier which will appear in the book URL),
+	7. list of files sorted by order in which they should appear in the book.
+2. Add all relevant files of the manuscript as an attachment to that email. This includes `.docx` files and `.ipynb` files, but also the `assets` folder with all the files used in your submission. This includes all the images, videos, datasets and other files. Be sure to follow the guidelines specified in the [Submission Structure](#cea905863d64b604) section.
 3. You will be contacted by someone from the *tnb.admin* team. We ask you to follow their instructions.
 
 :::{note}  
 When submitting your manuscript for the first time do not worry that it is not prefect. You will be able to change it to comply with the guidelines and to make sure it looks the way you want it to. The only thing that will be difficult to change is its general structure – how it is divided into separate files and how the files are named. **Before submitting your manuscript please make sure that the file structure and the file names will not change**. Everything else you will be able to modify later.  
 :::
 
+:::{important}  
+When working on a co-authored books or anthologies delegate one person to communicate with the *tnb.admin* team.  
+:::
+
 ## Modifications After First Draft Submission
 
-As a general rule, after the first submission the *tnb.admin* team will provide you with:
-
-* Central storage location of your manuscript,
-* Link to a dashboard displaying useful information about your manuscript,
-* Link to a digital version of your publication.
-
-From then on, please use the storage location to apply every change you want to make. Changes you make on those files will be reflected in the dashboard and in the digital version of your publication.
+After the first submission the *tnb.admin* team is going to provide you with a central storage location of your manuscript. From then on, please use this shared directory to apply every change you want to make. Changes you make on those files will be reflected in the digital version of your publication. In case of an multi-author books, every author should be able to make changes to their part of the manuscript.
 
 :::{important}  
 Please make sure that your submission complies with the guidelines. When you think the manuscript is ready for editing, contact [verena.deutsch@degruyter.com](mailto:verena.deutsch@degruyter.com).  
@@ -42,10 +51,10 @@ Please make sure that your submission complies with the guidelines. When you thi
 ## File Formats
 
 :::{important}   
-Manuscripts should be submitted in a `.docx` file format. We also accept chapters written in `.ipynb` files, although the recommended way of including visualizations, charts, diagrams, maps, jupyter notebooks, etc. is by including them in `.docx` files. As an author you are required to upload all the files included in you manuscript to the `assets` folder.  
+Manuscripts should be submitted in a `.docx` file format. We also accept chapters written in `.ipynb` files, although the recommended way of including visualizations, charts, diagrams, maps, jupyter notebooks, etc. is by including them in `.docx` files. In addition, it might be a good idea to include your `.ipynb` files as attachments at the end of your manuscript. As an author you are required to upload all the files included in you manuscript to the `assets` folder.  
 :::
 
-**Manuscripts should be written and submitted specifically in a `.docx` file format.** This is the default file extension produced by the most common word processing software – Microsoft Word. Other file formats, like `.pages` created in Apple Pages or `.gdoc` saved from Google Doc will not work. In the case of manuscripts written in those unsupported file formats input files should be first transformed to `.docx` in order to submit them to the platform.
+**Manuscripts should be written and submitted specifically in a `.docx` file format.** This is the file extension produced by common word processing software, like Microsoft Word or LibreOffice Writer. Other file formats, like `.pages` created in Apple Pages or `.gdoc` saved from Google Doc will not work. In the case of manuscripts written in those unsupported file formats input files should be first transformed to `.docx` in order to submit them to the platform. The examples in this guidelines are shown in Microsoft Word (henceforth called MS Word), but they will work in other word processing editors that support `.docx` formats as well.
 
 
 
@@ -66,11 +75,14 @@ In those files you can include other assets, like images or videos, but you shou
 
 The `.html` files included in the `.docx` files can contain references to other files in the `assets` directory, for example `.js` or `.css`.
 
-## Submission Structure
-
-:::{tip}   
-Submitting your book as a one file can result in unexpected behaviors. We recommend the authors to split the manuscript into logical parts that reflect an internal structure of a book. For example, each chapter can be its own file.  
+:::{important}  
+Not every interactive element is supported. Please read the section [on limitations of interactive objects in your digital book](#1f9a30fd25bb853b).  
 :::
+
+
+
+(cea905863d64b604)=
+## Submission Structure
 
 As an author, you are required to upload a package of a following structure:
 
@@ -98,6 +110,24 @@ Note that every submission must have:
 
 * parts of the book written in `.docx` or `.ipynb` format and
 * all the objects (images, videos, files with data) used in the manuscript in a separate folder called `assets`.
+
+Single-author manuscripts can be contained in one file. Then, the file structure should look as follows:
+
+:::{code}
+
+.
+
+├── manuscript.docx
+
+└── assets/
+
+ ├── img-filename.jpg
+
+ ├── video-filename.mp4
+
+ └── data-filename.csv
+
+:::
 
 Note that you have some flexibility when it comes to nesting files in the `assets` folder. For example, when writing a long book, it is recommended to divide objects by chapters in which they were referenced.
 
@@ -161,6 +191,7 @@ We recommend that you apply your naming convention consistently across the whole
 
 Criteria for file naming:
 
+* We strongly advise file names NOT to contain spaces. Use `_` or `-` instead. For example, files should be named `01_my-chapter.docx` rather than `01 my chapter.docx`.
 * File names should not be too long.
 * Only `0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz _-+.` characters are allowed.
 * Assignment should be clear and precise.

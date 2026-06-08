@@ -1,6 +1,13 @@
-# Asking For (And Getting) Help
+---
+downloads:
+- file: ./assets/source_chapters/06_help.docx
+---
 
-## In general
+
+
+# Getting Help
+
+## In General
 
 The platform uses GitHub Issues for communication with users. Read, update or create issues under [the guidelines repository](https://github.com/digital-monographs/guidelines-for-drafting-manuscripts/issues) whenever you want to:
 
@@ -11,7 +18,7 @@ The platform uses GitHub Issues for communication with users. Read, update or cr
 
 ## Search For Answers Before Asking A New Question
 
-Before creating a new issue, search the list of issues to ensure your report is truly a new issue and not just a duplicate. If a similar issue already exists you should join the discussion: add an emoticon, add comment, update status, etc. Avoid duplicates wherever possible. Sometime a simple “thumbs up” icon is enough to show that you are experiencing the same issue or you have similar thoughts about some problem or suggested solution.
+Before creating a new issue, search the list of issues to ensure your report is truly a new issue and not just a duplicate. If a similar issue already exists you should join the discussion: add comment, add an emoticon, update status, etc. Avoid duplicates wherever possible. Sometime a simple “thumbs up” icon is enough to show that you are experiencing the same issue or you have similar thoughts about some problem or suggested solution.
 
 :::{important}  
 **Avoid duplicated issues.** Always search existing issues before creating a new issue.  
@@ -27,5 +34,6 @@ When asking for help, it's crucial to put in the effort in being helped. Please 
 * If your problem is with rendering of certain part of your manuscript for its paper or digital version, please include the input part, its the desired output and the actual output.
 
 Once submitted, your report will go into the issue tracking workflow.
+
 
 
