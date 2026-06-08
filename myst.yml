@@ -22,4 +22,23 @@ project:
 site:
   options:
     folders: true
+    favicon: ./assets/00_index/jb_favicon.ico
+    logo: ./assets/00_index/jb_logo_light.svg
+    logo_dark: ./assets/00_index/jb_logo_dark.svg
   template: book-theme
+  title: Guidelines For Drafting Manuscripts
+  nav: []
+  domains: []
+  parts:
+    primary_sidebar_footer: ' '
+    primary_sidebar_footer2: 'Made with [Jupyter Book](https://jupyterbook.org)
+
+      ```{image} ./assets/jb_logo.svg
+
+      :link: https://jupyterbook.org
+
+      :width: 10%
+
+      ```
+
+      '
